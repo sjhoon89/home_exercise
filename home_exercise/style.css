@@ -8,6 +8,8 @@ body {
   margin: 0;
   }
   
+  a { text-decoration: none;}
+  
   ol {
   border-right: 1px solid gray;
   width: 100px;
