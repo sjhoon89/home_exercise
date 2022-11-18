@@ -6,7 +6,10 @@ body {
   text-align: center;
   border-bottom: 1px solid gray;
   margin: 0;
-  fill: pink
+  background-color: rgb(155, 89, 182, 0.15);
+  height: 100px;
+  
+  
   }
   
   a { text-decoration: none;}
@@ -16,6 +19,7 @@ body {
   width: 100px;
   margin: 0;
   padding: 20px;
+  background-color: rgba(142, 68, 173, 0.22)
   }
   
   #grid {
