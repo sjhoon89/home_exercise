@@ -1,6 +1,6 @@
 
   var Body = {
-    setColor: function(color) {
+    setColor: function(color) { 
      $('body').css('color', color);
        //document.querySelector('body').style.color = color;
    },

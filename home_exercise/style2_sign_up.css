@@ -59,7 +59,7 @@ background-color: rgba(142, 68, 173, 0.22);
 
   .left_menu .left_menu3 {
       display: none;
-  }
+  } 
 
   .left_menu .left_menu2 > li > a:hover ~ .left_menu3 {
       display: block;
