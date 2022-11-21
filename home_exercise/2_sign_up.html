@@ -3,7 +3,7 @@
 <head>
   <title> 마니네 게임 공략 홈페이지 입니다. </title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style2_sign_up.css" />
   <script src="colors.js"></script>
   
 </head>
@@ -58,16 +58,38 @@
     </div>
 
     
-    <div>
-        <h2>WEB이란 무엇인가?</h2>
+    <div class="sign_up_tool">
+      
     <p style="margin-top: 40px;">
-      공지사항하고 넣겠지 일단 기다려봐아
-      대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용
-      대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용
-      대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용
-      대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용
-      대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용 대충 내용
-    </p>
+     
+      <form action="doJoin" method="POST" class="joinForm" onsubmit="DoJoinForm__submit(this); return false;">
+                                                                                               
+        <h2>회원가입</h2>
+        <div class="textForm">
+          <input name="loginId" type="text" class="id" placeholder="아이디">
+          </input>
+        </div>
+        <div class="textForm">
+          <input name="loginPw" type="password" class="pw" placeholder="비밀번호">
+        </div>
+         <div class="textForm">
+          <input name="loginPwConfirm" type="password" class="pw" placeholder="비밀번호 확인">
+        </div>
+        <div class="textForm">
+          <input name="name" type="password" class="name" placeholder="이름">
+        </div>
+         <div class="textForm">
+          <input name="email" type="text" class="email" placeholder="이메일">
+        </div>
+        <div class="textForm">
+          <input name="nickname" type="text" class="nickname" placeholder="닉네임">
+        </div>
+        <div class="textForm">
+          <input name="cellphoneNo" type="number" class="cellphoneNo" placeholder="전화번호">
+        </div>
+        <input type="submit" class="btn" value="J O I N"/>
+      </form>
+      
     </div>
   </div>
 
