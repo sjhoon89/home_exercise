@@ -86,3 +86,15 @@ body {
     }
   
     }
+
+    
+
+   .row{
+    background-color: rgba(142, 68, 173, 0.22)
+    }
+    
+    
+    footer{
+      position : relative;
+      transform : translateY(0%);
+    }
